@@ -3,7 +3,8 @@
   :url "https://github.com/nicl/gulist"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :plugins [[lein-ring "0.8.8"]]
+  :plugins [[lein-ring "0.8.8"]
+            [lein-environ "1.0.0"]]
   :ring {:handler gulist.handler/app}
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [compojure "1.3.2"]
