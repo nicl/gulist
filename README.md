@@ -22,7 +22,10 @@ But note, would be cool if it surfaced older stuff too.
 2. Apply weightings and filters
 3. Return
 
-Content means Hacker-News style, but with an image.
+We should really subscribe to the CAPI notification service, and store
+content in our API. This would also allow us to hold non-Guardian
+content, which is consistent with the aim of presenting an aggregated
+view.
 
 ## License
 
