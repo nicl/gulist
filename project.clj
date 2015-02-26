@@ -10,7 +10,9 @@
                  [compojure "1.3.2"]
                  [clj-http "1.0.1"]
                  [ring/ring-json "0.3.1"]
-                 [environ "1.0.0"]]
+                 [environ "1.0.0"]
+                 [clj-time "0.9.0"]
+                 [org.clojure/math.numeric-tower "0.0.4"]]
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring-mock "0.1.5"]]}})
